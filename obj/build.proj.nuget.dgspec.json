@@ -1,0 +1,52 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/felipe/Escritorio/netcore/Catalog/build.proj": {}
+  },
+  "projects": {
+    "/home/felipe/Escritorio/netcore/Catalog/build.proj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/felipe/Escritorio/netcore/Catalog/build.proj",
+        "projectName": "build",
+        "projectPath": "/home/felipe/Escritorio/netcore/Catalog/build.proj",
+        "packagesPath": "/home/felipe/.nuget/packages/",
+        "outputPath": "/home/felipe/Escritorio/netcore/Catalog/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/felipe/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net45"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net45": {
+            "targetAlias": "net45",
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net45": {
+          "targetAlias": "net45",
+          "dependencies": {
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )",
+              "autoReferenced": true
+            },
+            "moq": {
+              "target": "Package",
+              "version": "[4.16.1, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
